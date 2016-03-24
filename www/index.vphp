@@ -1,0 +1,9 @@
+<div class="__inputfield <?php iv('cssClass') ?> <?php isnv('value', '__empty')?>" >
+	<span><?php isv('value', '********', t('Введите значение', true)) ?></span>
+	<input type="hidden" name="__action" value="<?php iv('action')?>">
+	<input type="hidden" name="__entity" value="<?php iv('entity')?>">
+	<input type="hidden" name="__param" value="<?php iv('param')?>">
+	<input type="hidden" name="__obj_id" value="<?php iv('objectId')?>">
+	<input type="hidden" name="__empty_text" value="<?php t('Введите значение')?>">
+	<?php iv('fieldView')?>
+</div>
