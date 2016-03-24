@@ -13,7 +13,7 @@ use samsoncms\input\Field;
  * SamsonCMS Date time input field
  * @package samsoncms\input\datetime
  */
-class DateTime extends Field
+class Password extends Field
 {
     /** Database object field name */
     protected $param = 'Value';
